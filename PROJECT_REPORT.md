@@ -2,7 +2,7 @@
 
 **Project Title:** Task & Workflow Engine — A CLI-Based Task Management System
 **Course Context:** Core Java / Object-Oriented Programming (Flipped Course Project)
-**Repository:** `https://github.com/{username}/task-workflow-engine`
+**Repository:** `https://github.com/kasak25bai10884/task-workflow-engine`
 **Language / Runtime:** Java 17, Apache Maven
 **Submission Type:** Individual Software Engineering Project
 
@@ -241,20 +241,8 @@ supplied, and the observed result.
 | 16 | Corrupt storage file handling | Manually truncate a line in `tasks.dat` | Startup fails fast with a line-numbered `IOException` message instead of silent data loss | Pass |
 | 17 | Status summary counts | Mixed set of tasks across all four statuses | Per-status counts sum to total task count | Pass |
 
-## 6. Plagiarism & Integrity Declaration
+Submitted by Kasak Fitkariwala (25BAI10884)
 
-I declare that the design, source code, documentation, and this report
-submitted for the Task & Workflow Engine project represent my own original
-work, produced specifically for this course assignment. Standard Java
-language constructs, JDK library APIs (e.g., `java.util`, `java.io`,
-`java.time`), and Apache Maven build conventions are used in accordance
-with their public documentation; no third-party source code, templates, or
-AI-generated submissions from other students were copied or incorporated.
-Any external references consulted during development (official Oracle Java
-documentation, Apache Maven documentation) informed understanding of
-standard library behavior only and did not supply copied implementation
-code. I understand that this submission will be assessed for the integrity
-of authorship consistent with the institution's academic honesty policy.
 
 **Signed:** ___________________________
 **Date:** ___________________________
