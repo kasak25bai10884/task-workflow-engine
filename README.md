@@ -214,5 +214,4 @@ date".
 
 ## License
 
-This project was produced as an academic coursework submission. See the
-accompanying Project Report for the integrity declaration.
+This project was produced as an academic coursework submission.
