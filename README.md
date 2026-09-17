@@ -5,7 +5,7 @@ pure Java 17. The engine lets a user create, prioritize, track, search, and
 persist tasks entirely from the command line — no GUI, no external services,
 no database server.
 
-Repository: `https://github.com/{username}/task-workflow-engine`
+Repository: `https://github.com/kasak25bai10884/task-workflow-engine`
 
 ---
 
@@ -70,7 +70,7 @@ com.workflow
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/{username}/task-workflow-engine.git
+git clone https://github.com/kasak25bai10884/task-workflow-engine.git
 cd task-workflow-engine
 ```
 
@@ -93,6 +93,18 @@ java -jar target/app.jar
 On first run, the engine will report that it loaded `0` tasks; a
 `tasks.dat` file will be created in the current working directory the first
 time you save.
+
+### Run without Maven
+
+If Maven is not installed, compile the Java source files directly.
+
+On Windows PowerShell:
+
+javac -d out (Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullName })
+
+Then run:
+
+java -cp out com.workflow.Main
 
 ### 4. (Optional) Run tests
 
